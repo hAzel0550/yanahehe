@@ -1,0 +1,86 @@
+.navbar li{
+    float: center;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFC0CB;
+    text-align: center;
+}
+
+.services {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+}
+
+.service {
+    width: 250px;
+    padding: 40px;
+    text-align: center;
+    background-color: #DE6FA1;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+    /* P FONT */
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 15px;
+    letter-spacing: 0px;
+    word-spacing: 2px;
+    font-weight: 500;
+    text-decoration: none;
+    font-style: italic;
+    font-variant: normal;
+    text-transform: none;
+}
+.fontser{
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 13px;
+    letter-spacing: 0px;
+    word-spacing: 2px;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: uppercase;
+}
+.h2head{
+    text-align: center;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 50px;
+    letter-spacing: 0px;
+    word-spacing: 2px;
+    color: #DE6FA1;;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+}
+
+.service:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+#service1:hover {
+    background-color: #FBAED2;
+}
+
+#service2:hover {
+    background-color: #FBAED2;
+}
+
+#service3:hover {
+    background-color: #FBAED2;
+}
+
+.service h2 {
+    color: whitesmoke;
+}
+
+.service p {
+    color: white;
+}
+.cde {
+    color: white;
+}
